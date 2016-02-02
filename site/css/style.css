@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Playball);
 :root {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 html, body {
@@ -14,6 +16,11 @@ body {
 	padding: 0;
 	padding-top: 70px;
 	background-color: #424242;
+}
+
+.logo {
+	font-family: 'Playball', cursive;
+	font-size: 3rem !important;
 }
 
 .header {
@@ -37,6 +44,9 @@ body {
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .header ul li {
@@ -46,13 +56,6 @@ body {
 	-webkit-justify-content: space-around;
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
+	font-size: 1.4rem;
 	transition: .2s background-color;
-}
-
-.header ul li:hover {
-	background-color: #0c7cd5;
-}
-
-.logo {
-	background: url(https://images.fam-ericsson.se/fam-ericsson.svg) center fixed no-repeat;
 }
