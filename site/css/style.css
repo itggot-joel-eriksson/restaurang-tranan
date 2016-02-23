@@ -52,6 +52,7 @@ body {
 	justify-content: space-around;
 	line-height: 50px;
 	font-size: 1.4rem;
+	transition: .2s background-color;
 }
 
 .header ul li:hover {
@@ -63,7 +64,10 @@ body {
 	font-family: 'Oswald', cursive;
 	color: #EEEEEE;
 	text-decoration: none;
-	transition: .2s background-color;
+}
+
+.header ul .active {
+	background-color: #0c7cd5;
 }
 
 .logo {
