@@ -1,0 +1,32 @@
+{
+  "name": "restaurang-tranan",
+  "version": "1.0.0",
+  "description": "Ett webbutvecklingsprojekt i webbutveckling 1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itggot-joel-eriksson/restaurang-tranan.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "coffee",
+    "sass"
+  ],
+  "author": "Wassim Soueidan & Joel Eriksson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/itggot-joel-eriksson/restaurang-tranan/issues"
+  },
+  "homepage": "https://github.com/itggot-joel-eriksson/restaurang-tranan#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-sass": "^2.1.1"
+  }
+}
