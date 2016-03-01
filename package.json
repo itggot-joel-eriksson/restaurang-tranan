@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/itggot-joel-eriksson/restaurang-tranan.git"
   },
-  "author": "Wassim Soueidan <wassim.soueidan@itggot.se>",
+  "author": "Wassim Soueidan <wassim.soueidan@itggot.se>, Joel Eriksson <joel.eriksson3@itggot.se>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/itggot-joel-eriksson/restaurang-tranan/issues"
